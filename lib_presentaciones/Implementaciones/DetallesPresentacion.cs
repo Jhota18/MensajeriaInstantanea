@@ -7,9 +7,9 @@ namespace lib_presentaciones.Implementaciones
 {
     public class DetallesPresentacion : IDetallesPresentacion
     {
-        private IDetallesPresentacion? iComunicacion = null;
+        private IDetallesComunicacion? iComunicacion = null;
 
-        public DetallesPresentacion(IDetallesPresentacion iComunicacion)
+        public DetallesPresentacion(IDetallesComunicacion iComunicacion)
         {
             this.iComunicacion = iComunicacion;
         }

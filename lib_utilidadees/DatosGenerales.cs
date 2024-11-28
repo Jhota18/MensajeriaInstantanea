@@ -2,7 +2,7 @@
 {
     public class DatosGenerales
     {
-        public static string ruta_json = @"C:\Users\JUAN PABLO\source\repos\Pablobf19\Mensajeria_Instantanea\secrets.json";
+        public static string ruta_json = @"C:\Users\Usuario\Documents\PROGRAMACION DE SOFTWARE ITM 2024\Mensajeria_Instantanea\secrets.json";
         public static bool usa_azure = false;
         public static string clave = "EVBgi345936456ghhVBJGtgnifytsidi3456678jhgUTytutyiiyi";
         public static string usuario_datos = EncriptarConversor.Encriptar("Test.Trghhjsgdj");

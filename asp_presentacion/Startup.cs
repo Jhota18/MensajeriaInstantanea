@@ -32,6 +32,7 @@ namespace asp_servicios
             services.AddScoped<IGruposRepositorio, GruposRepositorio>();
             services.AddScoped<IEstadosRepositorio, EstadosRepositorio>();
             services.AddScoped<IDetallesRepositorio, DetallesRepositorio>();
+            services.AddScoped<IAuditoriaRepositorio, AuditoriaRepositorio>();
             // Aplicaciones
             services.AddScoped<IPersonasAplicacion, PersonasAplicacion>();
             services.AddScoped<IPersGrupsAplicacion, PersGrupsAplicacion>();

@@ -12,10 +12,12 @@ namespace lib_repositorios.Implementaciones
     public class DetallesRepositorio : IDetallesRepositorio
     {
         private Conexion? conexion = null;
+        private IAuditoriaRepositorio? iAuditoriaRepositorio = null;
 
-        public DetallesRepositorio(Conexion conexion)
+        public DetallesRepositorio(Conexion conexion, IAuditoriaRepositorio iAuditoriaRepositorio)
         {
             this.conexion = conexion;
+            this.iAuditoriaRepositorio = iAuditoriaRepositorio;
         }
         public void Configurar(string string_conexion)
         {
@@ -23,6 +25,12 @@ namespace lib_repositorios.Implementaciones
         }
         public List<Detalles> Listar()
         {
+            iAuditoriaRepositorio!.Guardar(new Auditoria()
+            {
+                Tabla = "Detalles",
+                Referencia = 0,
+                Accion = "Listar"
+            });
             return conexion!.Listar<Detalles>();
         }
 
@@ -35,6 +43,12 @@ namespace lib_repositorios.Implementaciones
         {
             conexion!.Guardar(entidad);
             conexion!.GuardarCambios();
+            iAuditoriaRepositorio!.Guardar(new Auditoria()
+            {
+                Tabla = "Detalles",
+                Referencia = entidad.Id,
+                Accion = "Guardar"
+            });
             return entidad;
         }
 
@@ -42,6 +56,12 @@ namespace lib_repositorios.Implementaciones
         {
             conexion!.Modificar(entidad);
             conexion!.GuardarCambios();
+            iAuditoriaRepositorio!.Guardar(new Auditoria()
+            {
+                Tabla = "Detalles",
+                Referencia = entidad.Id,
+                Accion = "Modificar"
+            });
             return entidad;
         }
 
@@ -49,6 +69,12 @@ namespace lib_repositorios.Implementaciones
         {
             conexion!.Borrar(entidad);
             conexion!.GuardarCambios();
+            iAuditoriaRepositorio!.Guardar(new Auditoria()
+            {
+                Tabla = "Detalles",
+                Referencia = entidad.Id,
+                Accion = "Borrar"
+            });
             return entidad;
         }
     }

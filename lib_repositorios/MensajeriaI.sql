@@ -72,6 +72,13 @@ CREATE TABLE [Detalles]
 )
 GO
 
+CREATE TABLE [Auditoria]
+(
+	[Id] INT NOT NULL IDENTITY (1, 1) PRIMARY KEY,
+	[Tabla] NVARCHAR(50) NOT NULL,
+	[Referencia] INT NOT NULL,
+	[Accion] NVARCHAR(50) NOT NULL,
+)
 
 INSERT INTO [Personas] ([Cedula],[Nombre])
 VALUES (1000, 'Carlos Mario');

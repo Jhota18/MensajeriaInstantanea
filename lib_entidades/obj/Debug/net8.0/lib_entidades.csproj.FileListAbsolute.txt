@@ -23,3 +23,16 @@ C:\Users\JUAN PABLO\source\repos\Pablobf19\Mensajeria_Instantanea\lib_entidades\
 C:\Users\JUAN PABLO\source\repos\Pablobf19\Mensajeria_Instantanea\lib_entidades\obj\Debug\net8.0\refint\lib_entidades.dll
 C:\Users\JUAN PABLO\source\repos\Pablobf19\Mensajeria_Instantanea\lib_entidades\obj\Debug\net8.0\lib_entidades.pdb
 C:\Users\JUAN PABLO\source\repos\Pablobf19\Mensajeria_Instantanea\lib_entidades\obj\Debug\net8.0\ref\lib_entidades.dll
+C:\Users\Usuario\Documents\PROGRAMACION DE SOFTWARE ITM 2024\Mensajeria_Instantanea\lib_entidades\bin\Debug\net8.0\lib_entidades.deps.json
+C:\Users\Usuario\Documents\PROGRAMACION DE SOFTWARE ITM 2024\Mensajeria_Instantanea\lib_entidades\bin\Debug\net8.0\lib_entidades.dll
+C:\Users\Usuario\Documents\PROGRAMACION DE SOFTWARE ITM 2024\Mensajeria_Instantanea\lib_entidades\bin\Debug\net8.0\lib_entidades.pdb
+C:\Users\Usuario\Documents\PROGRAMACION DE SOFTWARE ITM 2024\Mensajeria_Instantanea\lib_entidades\obj\Debug\net8.0\lib_entidades.csproj.AssemblyReference.cache
+C:\Users\Usuario\Documents\PROGRAMACION DE SOFTWARE ITM 2024\Mensajeria_Instantanea\lib_entidades\obj\Debug\net8.0\lib_entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Documents\PROGRAMACION DE SOFTWARE ITM 2024\Mensajeria_Instantanea\lib_entidades\obj\Debug\net8.0\lib_entidades.AssemblyInfoInputs.cache
+C:\Users\Usuario\Documents\PROGRAMACION DE SOFTWARE ITM 2024\Mensajeria_Instantanea\lib_entidades\obj\Debug\net8.0\lib_entidades.AssemblyInfo.cs
+C:\Users\Usuario\Documents\PROGRAMACION DE SOFTWARE ITM 2024\Mensajeria_Instantanea\lib_entidades\obj\Debug\net8.0\lib_entidades.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\PROGRAMACION DE SOFTWARE ITM 2024\Mensajeria_Instantanea\lib_entidades\obj\Debug\net8.0\lib_entidades.sourcelink.json
+C:\Users\Usuario\Documents\PROGRAMACION DE SOFTWARE ITM 2024\Mensajeria_Instantanea\lib_entidades\obj\Debug\net8.0\lib_entidades.dll
+C:\Users\Usuario\Documents\PROGRAMACION DE SOFTWARE ITM 2024\Mensajeria_Instantanea\lib_entidades\obj\Debug\net8.0\refint\lib_entidades.dll
+C:\Users\Usuario\Documents\PROGRAMACION DE SOFTWARE ITM 2024\Mensajeria_Instantanea\lib_entidades\obj\Debug\net8.0\lib_entidades.pdb
+C:\Users\Usuario\Documents\PROGRAMACION DE SOFTWARE ITM 2024\Mensajeria_Instantanea\lib_entidades\obj\Debug\net8.0\ref\lib_entidades.dll

@@ -31,3 +31,21 @@ C:\Users\JUAN PABLO\source\repos\Pablobf19\Mensajeria_Instantanea\lib_repositori
 C:\Users\JUAN PABLO\source\repos\Pablobf19\Mensajeria_Instantanea\lib_repositorios\obj\Debug\net8.0\ref\lib_repositorios.dll
 C:\Users\JUAN PABLO\source\repos\Pablobf19\Mensajeria_Instantanea\lib_repositorios\bin\Debug\net8.0\lib_utilidades.dll
 C:\Users\JUAN PABLO\source\repos\Pablobf19\Mensajeria_Instantanea\lib_repositorios\bin\Debug\net8.0\lib_utilidades.pdb
+C:\Users\Usuario\Documents\PROGRAMACION DE SOFTWARE ITM 2024\Mensajeria_Instantanea\lib_repositorios\bin\Debug\net8.0\lib_repositorios.deps.json
+C:\Users\Usuario\Documents\PROGRAMACION DE SOFTWARE ITM 2024\Mensajeria_Instantanea\lib_repositorios\bin\Debug\net8.0\lib_repositorios.dll
+C:\Users\Usuario\Documents\PROGRAMACION DE SOFTWARE ITM 2024\Mensajeria_Instantanea\lib_repositorios\bin\Debug\net8.0\lib_repositorios.pdb
+C:\Users\Usuario\Documents\PROGRAMACION DE SOFTWARE ITM 2024\Mensajeria_Instantanea\lib_repositorios\bin\Debug\net8.0\lib_entidades.dll
+C:\Users\Usuario\Documents\PROGRAMACION DE SOFTWARE ITM 2024\Mensajeria_Instantanea\lib_repositorios\bin\Debug\net8.0\lib_utilidades.dll
+C:\Users\Usuario\Documents\PROGRAMACION DE SOFTWARE ITM 2024\Mensajeria_Instantanea\lib_repositorios\bin\Debug\net8.0\lib_entidades.pdb
+C:\Users\Usuario\Documents\PROGRAMACION DE SOFTWARE ITM 2024\Mensajeria_Instantanea\lib_repositorios\bin\Debug\net8.0\lib_utilidades.pdb
+C:\Users\Usuario\Documents\PROGRAMACION DE SOFTWARE ITM 2024\Mensajeria_Instantanea\lib_repositorios\obj\Debug\net8.0\lib_repositorios.csproj.AssemblyReference.cache
+C:\Users\Usuario\Documents\PROGRAMACION DE SOFTWARE ITM 2024\Mensajeria_Instantanea\lib_repositorios\obj\Debug\net8.0\lib_repositorios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Documents\PROGRAMACION DE SOFTWARE ITM 2024\Mensajeria_Instantanea\lib_repositorios\obj\Debug\net8.0\lib_repositorios.AssemblyInfoInputs.cache
+C:\Users\Usuario\Documents\PROGRAMACION DE SOFTWARE ITM 2024\Mensajeria_Instantanea\lib_repositorios\obj\Debug\net8.0\lib_repositorios.AssemblyInfo.cs
+C:\Users\Usuario\Documents\PROGRAMACION DE SOFTWARE ITM 2024\Mensajeria_Instantanea\lib_repositorios\obj\Debug\net8.0\lib_repositorios.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\PROGRAMACION DE SOFTWARE ITM 2024\Mensajeria_Instantanea\lib_repositorios\obj\Debug\net8.0\lib_repositorios.sourcelink.json
+C:\Users\Usuario\Documents\PROGRAMACION DE SOFTWARE ITM 2024\Mensajeria_Instantanea\lib_repositorios\obj\Debug\net8.0\lib_repo.695687AF.Up2Date
+C:\Users\Usuario\Documents\PROGRAMACION DE SOFTWARE ITM 2024\Mensajeria_Instantanea\lib_repositorios\obj\Debug\net8.0\lib_repositorios.dll
+C:\Users\Usuario\Documents\PROGRAMACION DE SOFTWARE ITM 2024\Mensajeria_Instantanea\lib_repositorios\obj\Debug\net8.0\refint\lib_repositorios.dll
+C:\Users\Usuario\Documents\PROGRAMACION DE SOFTWARE ITM 2024\Mensajeria_Instantanea\lib_repositorios\obj\Debug\net8.0\lib_repositorios.pdb
+C:\Users\Usuario\Documents\PROGRAMACION DE SOFTWARE ITM 2024\Mensajeria_Instantanea\lib_repositorios\obj\Debug\net8.0\ref\lib_repositorios.dll

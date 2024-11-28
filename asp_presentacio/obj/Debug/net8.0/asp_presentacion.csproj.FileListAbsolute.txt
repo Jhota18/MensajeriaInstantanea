@@ -1,0 +1,9 @@
+C:\Users\Usuario\Documents\PROGRAMACION DE SOFTWARE ITM 2024\Mensajeria_Instantanea\asp_presentacio\obj\Debug\net8.0\asp_presentacion.csproj.AssemblyReference.cache
+C:\Users\Usuario\Documents\PROGRAMACION DE SOFTWARE ITM 2024\Mensajeria_Instantanea\asp_presentacio\obj\Debug\net8.0\asp_presentacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Documents\PROGRAMACION DE SOFTWARE ITM 2024\Mensajeria_Instantanea\asp_presentacio\obj\Debug\net8.0\asp_presentacion.AssemblyInfoInputs.cache
+C:\Users\Usuario\Documents\PROGRAMACION DE SOFTWARE ITM 2024\Mensajeria_Instantanea\asp_presentacio\obj\Debug\net8.0\asp_presentacion.AssemblyInfo.cs
+C:\Users\Usuario\Documents\PROGRAMACION DE SOFTWARE ITM 2024\Mensajeria_Instantanea\asp_presentacio\obj\Debug\net8.0\asp_presentacion.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\PROGRAMACION DE SOFTWARE ITM 2024\Mensajeria_Instantanea\asp_presentacio\obj\Debug\net8.0\asp_presentacion.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Usuario\Documents\PROGRAMACION DE SOFTWARE ITM 2024\Mensajeria_Instantanea\asp_presentacio\obj\Debug\net8.0\asp_presentacion.RazorAssemblyInfo.cache
+C:\Users\Usuario\Documents\PROGRAMACION DE SOFTWARE ITM 2024\Mensajeria_Instantanea\asp_presentacio\obj\Debug\net8.0\asp_presentacion.RazorAssemblyInfo.cs
+C:\Users\Usuario\Documents\PROGRAMACION DE SOFTWARE ITM 2024\Mensajeria_Instantanea\asp_presentacio\obj\Debug\net8.0\asp_presentacion.sourcelink.json
