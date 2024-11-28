@@ -1,0 +1,6 @@
+@lib_utilidades_HostAddress = http://localhost:5271
+
+GET {{lib_utilidades_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
