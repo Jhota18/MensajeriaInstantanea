@@ -5,18 +5,18 @@ using lib_utilidades;
 
 namespace lib_presentaciones.Implementaciones
 {
-    public class DetallesPresentacion : IDetallesPresentacion
+    public class PersGrupsPresentacion : IPersGrupsPresentacion
     {
-        private IDetallesPresentacion? iComunicacion = null;
+        private IPersGrupsComunicacion? iComunicacion = null;
 
-        public DetallesPresentacion(IDetallesPresentacion iComunicacion)
+        public PersGrupsPresentacion(IPersGrupsComunicacion iComunicacion)
         {
             this.iComunicacion = iComunicacion;
         }
 
-        public async Task<List<Detalles>> Listar()
+        public async Task<List<PersGrups>> Listar()
         {
-            var lista = new List<Detalles>();
+            var lista = new List<PersGrups>();
             var datos = new Dictionary<string, object>();
 
             var respuesta = await iComunicacion!.Listar(datos);
@@ -24,14 +24,14 @@ namespace lib_presentaciones.Implementaciones
             {
                 throw new Exception(respuesta["Error"].ToString()!);
             }
-            lista = JsonConversor.ConvertirAObjeto<List<Detalles>>(
+            lista = JsonConversor.ConvertirAObjeto<List<PersGrups>>(
                 JsonConversor.ConvertirAString(respuesta["Entidades"]));
             return lista;
         }
 
-        public async Task<List<Detalles>> Buscar(Detalles entidad, string tipo)
+        public async Task<List<PersGrups>> Buscar(PersGrups entidad, string tipo)
         {
-            var lista = new List<Detalles>();
+            var lista = new List<PersGrups>();
             var datos = new Dictionary<string, object>();
             datos["Entidad"] = entidad;
             datos["Tipo"] = tipo;
@@ -41,12 +41,12 @@ namespace lib_presentaciones.Implementaciones
             {
                 throw new Exception(respuesta["Error"].ToString()!);
             }
-            lista = JsonConversor.ConvertirAObjeto<List<Detalles>>(
+            lista = JsonConversor.ConvertirAObjeto<List<PersGrups>>(
                 JsonConversor.ConvertirAString(respuesta["Entidades"]));
             return lista;
         }
 
-        public async Task<Detalles> Guardar(Detalles entidad)
+        public async Task<PersGrups> Guardar(PersGrups entidad)
         {
             if (entidad.Id != 0 || !entidad.Validar())
             {
@@ -61,12 +61,12 @@ namespace lib_presentaciones.Implementaciones
             {
                 throw new Exception(respuesta["Error"].ToString()!);
             }
-            entidad = JsonConversor.ConvertirAObjeto<Detalles>(
+            entidad = JsonConversor.ConvertirAObjeto<PersGrups>(
                 JsonConversor.ConvertirAString(respuesta["Entidad"]));
             return entidad;
         }
 
-        public async Task<Detalles> Modificar(Detalles entidad)
+        public async Task<PersGrups> Modificar(PersGrups entidad)
         {
             if (entidad.Id == 0 || !entidad.Validar())
             {
@@ -81,12 +81,12 @@ namespace lib_presentaciones.Implementaciones
             {
                 throw new Exception(respuesta["Error"].ToString()!);
             }
-            entidad = JsonConversor.ConvertirAObjeto<Detalles>(
+            entidad = JsonConversor.ConvertirAObjeto<PersGrups>(
                 JsonConversor.ConvertirAString(respuesta["Entidad"]));
             return entidad;
         }
 
-        public async Task<Detalles> Borrar(Detalles entidad)
+        public async Task<PersGrups> Borrar(PersGrups entidad)
         {
             if (entidad.Id == 0 || !entidad.Validar())
             {
@@ -101,7 +101,7 @@ namespace lib_presentaciones.Implementaciones
             {
                 throw new Exception(respuesta["Error"].ToString()!);
             }
-            entidad = JsonConversor.ConvertirAObjeto<Detalles>(
+            entidad = JsonConversor.ConvertirAObjeto<PersGrups>(
                 JsonConversor.ConvertirAString(respuesta["Entidad"]));
             return entidad;
         }
