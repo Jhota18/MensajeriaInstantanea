@@ -23,6 +23,7 @@ namespace asp_presentacion.Pages.Ventanas
             }
         }
 
+        public IFormFile? FormFile { get; set; }
         [BindProperty] public Enumerables.Ventanas Accion { get; set; }
         [BindProperty] public Personas? Actual { get; set; }
         [BindProperty] public Personas? Filtro { get; set; }
@@ -53,10 +54,8 @@ namespace asp_presentacion.Pages.Ventanas
             try
             {
                 Accion = Enumerables.Ventanas.Editar;
-                Actual = new Personas()
-                {
-                    Fecha = DateTime.Now,
-                };
+                Actual = new Personas();
+               
             }
             catch (Exception ex)
             {

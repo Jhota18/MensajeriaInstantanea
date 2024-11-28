@@ -1,29 +1,10 @@
-using lib_comunicaciones.Implementaciones;
+using asp_presentacion;
 
 var builder = WebApplication.CreateBuilder(args);
 
-var datos = new Dictionary<string, object>();
-var PersonasComunicacion = new PersonasComunicacion();
-var task = PersonasComunicacion.Listar(datos);
-task.Wait();
-var respuesta = task.Result;
-
-// Add services to the container.
-builder.Services.AddRazorPages();
+var startup = new Startup(builder.Configuration);
+startup.ConfigureServices(builder, builder.Services);
 
 var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
-{
-    app.UseExceptionHandler("/Error");
-}
-app.UseStaticFiles();
-
-app.UseRouting();
-
-app.UseAuthorization();
-
-app.MapRazorPages();
-
+startup.Configure(app, app.Environment);
 app.Run();
